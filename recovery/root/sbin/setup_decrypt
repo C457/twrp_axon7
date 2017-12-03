@@ -32,7 +32,7 @@ mountpoint -q /system || {
 }
 mountpoint -q /system || abort "Could not mount /system for crypto libs!"
 
-bin=/system/bin
+bin=/system/vendor/bin
 lib=/system/vendor/lib64
 hw=$lib/hw
 
